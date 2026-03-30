@@ -1,6 +1,6 @@
 # OnlineRetailARIMAFitting
 ## Project Overview
-The project focuses on developing a statistical forecasting baseline for weekly revenue using ARIMA. The aim is to assess the predictability of the series and establish a benchmark comparison with future machine learning approaches.
+The project focuses on developing a statistical forecasting baseline for weekly revenue using ARIMA. The aim is to assess the predictability of the series and establish a benchmark for comparison with future machine learning approaches.
 ## Dataset
 - Name: Online Retail Dataset
 - Source: UCI Machine Learning Repository
@@ -16,9 +16,9 @@ The project focuses on developing a statistical forecasting baseline for weekly 
 - CustomerID is a 5 number unique identifier assigned to each customer
 - Country is the name of the country the customer resides
 ## Objective
-- Forecast of weekly revenue
+- Forecast weekly revenue
 - Assess predictability of the series
-- Find a baseline model
+- Establish a baseline forecasting model
 ## Methodology
 - Weekly aggregation of data
 - Log transformation
@@ -39,7 +39,7 @@ Models were evaluated using Mean Absolute Error (MAE). The walk forward ARIMA ha
 - The series exhibits short-term dependence
 - The data behaves similarly to a random walk process
 ## Conclusion
-The ARIMA(0,1,1) provides a reasonable statistical baseline by capturing the short term dependency. However, forecasting remains challenging due to the limited dataset and weak underlying structure.
+The ARIMA(0,1,1) provides a reasonable statistical baseline by capturing the short-term dependency. However, forecasting remains challenging due to the limited dataset and weak underlying structure.
 ## Limitations
 - Small dataset (52 observations)
 - No seasonality modeling
