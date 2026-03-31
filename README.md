@@ -46,6 +46,7 @@ The ARIMA(0,1,1) provides a reasonable statistical baseline by capturing the sho
 - No external variables
 ## Next Steps
 - Explore a machine learning models to improve forecasting performance
+- SARIMA to capture seasonality effects
 - Incorporate additional features
 ## Tools Used
 - Python
