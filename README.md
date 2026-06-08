@@ -32,7 +32,7 @@ The project focuses on developing a statistical forecasting baseline for weekly 
 - ARIMA(0,1,1)
 - Naive baseline
 ## Evaluation
-Models were evaluated using Mean Absolute Error (MAE). The walk forward ARIMA has achieved the lowest MAE (0.170), followed by the naive baseline (0.216), while the static ARIMA forecasting performed worst (0.402).
+Models were evaluated using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE). The walk forward ARIMA has achieved the lowest MAE (0.170) and RMSE (0.236), followed by the naive baseline (0.216)(0.272), while the static ARIMA forecasting performed worst (0.402)(0.451).
 ## Key Findings
 - ARIMA outperforms the naive baseline
 - The improvement is modest
